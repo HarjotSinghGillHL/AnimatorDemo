@@ -82,6 +82,15 @@ public class HL_UserInterface : MonoBehaviour
         rect = new Rect(10, Pad, 300, 30);
         GUI.Label(rect, "Pause : Escape", guiStyleIndicators);
 
+        Pad += 30;
+
+        rect = new Rect(10, Pad, 300, 30);
+        GUI.Label(rect, "Door : Y", guiStyleIndicators);
+
+        Pad += 30;
+
+        rect = new Rect(10, Pad, 300, 30);
+        GUI.Label(rect, "Chest : T", guiStyleIndicators);
     }
 
 }
